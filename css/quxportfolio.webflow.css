@@ -163,7 +163,8 @@
   margin-top: 41px;
   margin-bottom: 25px;
   padding: 12px 25px;
-  background-color: #1a1b1f;
+  border-radius: 20px;
+  background-color: #1f4faa;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #fff;
@@ -186,7 +187,9 @@
   position: relative;
   padding: 80px 30px;
   border-bottom: 1px solid #e4ebf3;
-  background-color: #f5f7fa;
+  background-color: #fffaf7;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .container {
@@ -407,6 +410,8 @@
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fffaf7;
 }
 
 .nav-menu-two {
@@ -437,6 +442,8 @@
 }
 
 .nav-link-2:hover {
+  border-bottom: 5px solid #daeaf1;
+  border-radius: 0px;
   color: rgba(26, 27, 31, 0.75);
 }
 
@@ -494,6 +501,7 @@
   position: relative;
   padding: 80px 30px;
   border-bottom: 1px solid #e4ebf3;
+  background-color: #fffaf7;
 }
 
 .testimonial-wrapper-four {
@@ -509,14 +517,18 @@
 
 .testimonial-left {
   width: 30%;
-  margin-right: 64px;
+  margin: 0px 90px 0px 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
 .testimonial-image-four {
   width: 100%;
   height: 60%;
   margin-top: 143px;
+  margin-left: 0px;
   padding-top: 0px;
+  padding-left: 0px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -549,8 +561,10 @@
 
 .testimonial-text-four {
   margin-top: 19px;
+  margin-right: 99px;
   margin-bottom: 32px;
   padding-top: 0px;
+  padding-right: 0px;
 }
 
 .testimonial-author-name-three {
@@ -561,7 +575,15 @@
   position: relative;
   padding: 80px 30px;
   border-bottom: 1px solid #e4ebf3;
-  background-color: #f5f7fa;
+  background-color: #000;
+}
+
+.hero-stack.alden {
+  background-color: #e5e1df;
+}
+
+.hero-stack.habitat {
+  background-image: linear-gradient(225deg, #73b2d0, #cd9f9e);
 }
 
 .hero-wrapper-two {
@@ -610,6 +632,14 @@
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+}
+
+.body {
+  background-color: #fffaf7;
+}
+.navbar-wrapper p{
+  align-items: left;
+  margin-right: 130px;
 }
 
 @media screen and (max-width: 991px) {
