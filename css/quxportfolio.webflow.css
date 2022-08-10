@@ -637,10 +637,6 @@
 .body {
   background-color: #fffaf7;
 }
-.navbar-wrapper p{
-  align-items: left;
-  margin-right: 130px;
-}
 
 @media screen and (max-width: 991px) {
   .nav-menu-wrapper {
